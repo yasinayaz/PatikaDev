@@ -1,0 +1,4 @@
+SELECT * FROM country where country like 'A%a';
+SELECT * FROM country where country like '____%n';
+SELECT title FROM film where title Ilike '%t%';
+SELECT * FROM film where title Ilike 'C%'AND length>90 AND rental_rate>2.99 ;
