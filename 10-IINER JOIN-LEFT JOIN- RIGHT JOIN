@@ -1,0 +1,9 @@
+
+SELECT country,city FROM country
+LEFT JOIN city 
+ON country.country_id=city.country_id;
+
+
+SELECT payment_id,first_name,last_name FROM customer
+RIGHT JOIN payment 
+ON payment.customer_id=customer.customer_id;
